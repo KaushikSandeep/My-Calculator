@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:beige;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width:30%;
+    height:40vh;
+}
+.display{
+    width:100%;
+    height:80px;
+    background-color: black;
+    color:beige;
+    font-size: 40px;
+    padding:20px;
+    text-align: end;
+}
+.row{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    width:25%;
+    height:50px;
+    font-size: 20px;
+    padding:15px;
+}
+#clear{
+    width:100%;
+}
